@@ -4,7 +4,7 @@ class BankAccount:
         print("Welcome to the Simple Bank!")
 
     def deposit(self):
-        amount = 1000 
+        amount = 2000 
         if amount > 0:
             self.balance += amount
             print(f"Deposited: ${amount:.2f}\n")
